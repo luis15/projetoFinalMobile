@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:orientation="vertical"
+    android:background="@color/material_deep_teal_200">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHost"
+        android:hint="HOST"
+        android:text="urano.ft.unicamp.br" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texViewPort"
+        android:hint="PORT"
+        android:text="8080"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texViewUser"
+        android:hint="USER"
+        android:text="teste"
+        />
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text1"
+        android:id="@+id/buttonswitch"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</LinearLayout>
